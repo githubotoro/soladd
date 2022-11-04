@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://soladd.vercel.app/">
     <img src="Images/soladd-logo.png" alt="logo" width="20%">
-    <h1>Soladd | Find smart contract address before deployment 📋</h1>
+    <h1>Soladd | Find smart contract address before deployment</h1>
   </a>
   
   <p align="center">
