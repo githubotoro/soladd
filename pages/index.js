@@ -261,10 +261,10 @@ export default function Home() {
 	const findAddress = () => {
 		return (
 			<>
-				<div className="flex w-full justify-end items-end">
+				<div className="flex w-full sm:justify-end justify-center items-end">
 					<button
 						onClick={() => getContractAddress()}
-						className="drop-shadow-md justify-end rounded-md border-4 border-slate-700  bg-slate-700 px-6 py-1 text-lg font-bold text-white transition hover:bg-slate-50 hover:text-slate-700 focus:outline-none focus:ring active:text-blue-500"
+						className="drop-shadow-md sm:justify-end justify-center rounded-md border-4 border-slate-700  bg-slate-700 px-6 py-1 text-lg font-bold text-white transition hover:bg-slate-50 hover:text-slate-700 focus:outline-none focus:ring active:text-blue-500"
 					>
 						Find Smart Contract Address
 					</button>
@@ -310,22 +310,24 @@ export default function Home() {
 		return (
 			<>
 				<div className="mx-auto text-center pt-10 sm:pb-8 pb-2">
-					<h1 className="p-3 bg-slate-50 bg-clip-text font-extrabold text-transparent sm:text-6xl text-3xl drop-shadow-md">
+					<h1 className="p-3 bg-slate-50 bg-clip-text font-extrabold text-transparent sm:text-6xl text-2xl drop-shadow-md">
 						Find smart contract address
+						<br />
 						<span className="sm:block sm:text-6xl text-3xl">
 							{" "}
 							before deployment{" "}
 						</span>
 					</h1>
-					<center>
-						<p className="hidden text-md text-slate-50 text-bold sm:mt-4 sm:block max-w-3xl drop-shadow-sm">
-							Not an astrologer, but Soladd can predict your smart
-							contract address just by seeing your wallet address.
-							Indeed, you can be smarter than your smart contract,
-							gg. Try it yourself and see the magic! ✨
-						</p>
-					</center>
 				</div>
+
+				<center>
+					<p className="flex text-sm sm:text-md text-slate-50 text-bold -mt-3 mb-4 sm:mb-6 max-w-3xl drop-shadow-sm">
+						Not an astrologer, but Soladd can predict your smart
+						contract address just by seeing your wallet address.
+						Indeed, you can be smarter than your smart contract, gg.
+						Try it yourself and see the magic! ✨
+					</p>
+				</center>
 			</>
 		);
 	};
