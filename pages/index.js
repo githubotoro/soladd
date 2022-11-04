@@ -446,9 +446,7 @@ export default function Home() {
 				/>
 				<meta
 					property="og:image"
-					content={
-						"https://raw.githubusercontent.com/githubotoro/soladd/main/gradients/splash.png"
-					}
+					content="https://raw.githubusercontent.com/githubotoro/soladd/main/gradients/splash.png"
 				/>
 
 				<meta
@@ -459,16 +457,11 @@ export default function Home() {
 							gg. Try it yourself and see the magic! ✨"
 				/>
 
-				<meta charset="UTF-8" />
 				<meta
 					name="keywords"
 					content="smart contracts, ethereum, polygon, arbitrum, optimism address, blockchain, EVM"
 				/>
 				<meta name="author" content="Uday Khokhariya" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1.0"
-				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@yupuday" />
@@ -487,9 +480,7 @@ export default function Home() {
 				<meta name="twitter:creator" content="@yupuday" />
 				<meta
 					property="twitter:image:src"
-					content={
-						"https://raw.githubusercontent.com/githubotoro/soladd/main/gradients/splash.png"
-					}
+					content="https://raw.githubusercontent.com/githubotoro/soladd/main/gradients/splash.png"
 				/>
 			</Head>
 
