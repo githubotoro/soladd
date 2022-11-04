@@ -46,6 +46,39 @@ const Footer = () => {
 								</li>
 							</ul>
 						</nav>
+
+						<p class="mx-auto max-w-lg text-xs text-gray-500">
+							<span class="mt-4 block">
+								{" "}
+								&copy; 2022{" "}
+								<a
+									href="https://yupuday.vercel.app/"
+									target="_blank"
+									rel="noreferrer"
+									className="hover:border-b-2 hover:border-slate-300"
+								>
+									Uday Khokhariya
+								</a>{" "}
+								|{" "}
+								<a
+									href="https://polygonscan.com/address/0xD5a63CCE627372481b30AE24c31a3Fb94913D5Be"
+									target="_blank"
+									rel="noreferrer"
+									className="hover:border-b-2 hover:border-slate-300"
+								>
+									0xD5a63CCE627372481b30AE24c31a3Fb94913D5Be
+								</a>{" "}
+								|{" "}
+								<a
+									href="https://www.lensfrens.xyz/yupuday.lens"
+									target="_blank"
+									rel="noreferrer"
+									className="hover:border-b-2 hover:border-slate-300"
+								>
+									yupuday.lens
+								</a>{" "}
+							</span>
+						</p>
 					</div>
 				</div>
 			</footer>
