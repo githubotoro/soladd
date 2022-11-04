@@ -452,6 +452,22 @@ export default function Home() {
 					name="viewport"
 					content="width=device-width, initial-scale=1.0"
 				/>
+
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:site" content="@yupuday" />
+				<meta name="twitter:account_id" content="1460479438911537152" />
+				<meta
+					property="twitter:title"
+					content="Soladd - FInd smart contract address before deployment."
+				/>
+				<meta
+					property="twitter:description"
+					content="Not an astrologer, but Soladd can predict your smart
+					contract address just by seeing your wallet address.
+					Indeed, you can be smarter than your smart contract,
+					gg. Try it yourself and see the magic! ✨"
+				/>
+				<meta name="twitter:creator" content="@yupuday" />
 			</Head>
 
 			<Navbar />
