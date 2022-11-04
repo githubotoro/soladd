@@ -1,38 +1,87 @@
-# Soladd
+<!-- PROJECT HEADER -->
 
-Soladd is a tool to find the address of a smart contract before deployment using wallet address and nonce (transaction count).
+<div align="center">
+  <a href="https://soladd.vercel.app/">
+    <img src="Images/soladd-logo.png" alt="logo" width="20%">
+    <h1>Soladd | Find smart contract address before deployment 📋</h1>
+  </a>
+  
+  <p align="center">
+    <a href="https://soladd.vercel.app/">View Project</a>
+    |
+    <a href="https://github.com/githubotoro/soladd-app/issues">Report Bug</a>
+    |
+    <a href="https://github.com/githubotoro/soladd-web3-app/issues">Request Feature</a>
+    <br/>
+    <a href="https://twitter.com/yupuday">Twitter</a>
+    <br/>
+    <b>If you like this project, don't forget to give it a star! <br/> Thanks! 😊</b>
+  </p>
+</div>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="Images/soladd-splash.png" alt="logo" width="100%">
 
-## Getting Started
+## **Soladd In A Tweet ✒️**
 
-First, run the development server:
+> Stay one address **ahead** of your smart contracts. 💯
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+👉 **[Soladd](https://soladd.vercel.app/)** helps you in finding the address of your smart contract before deploying it, based on just your **wallet address**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- PROJECT LINKS -->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## **Project Links 🔗**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+> 📌 **[Website](https://formsify.vercel.app/) - https://formsify.vercel.app**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> 👋 **[ProductHunt](https://www.producthunt.com/posts/soladd) - https://www.producthunt.com/posts/soladd**
 
-## Learn More
+> 💻 **[GitHub](https://github.com/githubotoro/soladd) - https://github.com/githubotoro/soladd**
 
-To learn more about Next.js, take a look at the following resources:
+<!-- PROJECT LINKS -->
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- GETTING STARTED -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## **Getting Started 🚀**
 
-## Deploy on Vercel
+> All you need to get started with this project is an interest in **astrology** 👀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Installation 💻**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1.  **Clone** this repo.
+
+    ```sh
+    git clone https://github.com/githubotoro/soladd.git
+    ```
+
+2.  Get your own **API Keys** on **Ethereum, Polygon, Arbitrum, Optimism** from **[Alchemy](https://www.alchemy.com/).** Make a **.env.local** file in the root directory and enter the following line.
+
+    ```sh
+    API_KEY_NAME = "YOUR_API_KEY"
+    ```
+
+    > **NOTE: Never push your .env file to GitHub.**
+
+3.  **Install** NPM packages.
+    ```sh
+    npm install
+    ```
+4.  **Start** the project.
+
+    ```sh
+    npm run dev
+    ```
+
+5.  **Time to predict those addresses! 🧐**
+
+<!-- GETTING STARTED -->
+
+<!-- CONTACT -->
+
+## **Contact 👋**
+
+> **Uday Khokhariya**
+
+-   **Twitter** - [yupuday](https://twitter.com/yupuday)
+-   **Email** - uday.khokhariya@gmail.com
+
+<!-- CONTACT -->
