@@ -15,7 +15,7 @@ const Footer = () => {
 								<li>
 									<a
 										className="text-gray-900 transition hover:text-gray-900/75 hover:border-slate-900/75 hover:border-b-2"
-										href="https://github.com/githubotoro/soladd-next-app"
+										href="https://github.com/githubotoro/soladd"
 										target="_blank"
 										rel="noreferrer"
 									>
