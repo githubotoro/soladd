@@ -37,7 +37,7 @@ const Footer = () => {
 								<li>
 									<a
 										className="text-gray-900 transition hover:text-gray-900/75 hover:border-slate-900/75 hover:border-b-2"
-										href="/"
+										href="https://www.producthunt.com/posts/soladd"
 										target="_blank"
 										rel="noreferrer"
 									>
