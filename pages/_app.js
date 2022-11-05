@@ -2,6 +2,8 @@ import "../styles/globals.css";
 import "../styles/gradients.css";
 import Script from "next/script";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
@@ -25,8 +27,8 @@ function MyApp({ Component, pageProps }) {
         `,
 				}}
 			/>
-
-			<Component {...pageProps} />
+			<Component {...pageProps} />\
+			<Analytics />
 		</>
 	);
 }
