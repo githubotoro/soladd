@@ -15,15 +15,15 @@ function MyApp({ Component, pageProps }) {
 			/>
 			<Script id="google-analytics-script" strategy="lazyOnload">
 				{`
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
-		page_path: window.location.pathname,
-		});
-	`}
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+					page_path: window.location.pathname,
+					});
+				`}
 			</Script>
-			<Component {...pageProps} />\
+			<Component {...pageProps} />
 			<Analytics />
 		</>
 	);

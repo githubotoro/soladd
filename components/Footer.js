@@ -76,7 +76,7 @@ const Footer = () => {
 									className="hover:border-b-2 hover:border-slate-300"
 								>
 									yupuday.lens
-								</a>{" "}
+								</a>
 							</span>
 						</p>
 					</div>

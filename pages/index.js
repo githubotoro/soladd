@@ -541,8 +541,6 @@ export default function Home() {
 				pauseOnHover
 				theme="light"
 			/>
-
-			<ToastContainer />
 		</>
 	);
 }
