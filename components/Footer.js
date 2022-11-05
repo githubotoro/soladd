@@ -61,7 +61,7 @@ const Footer = () => {
 								</a>{" "}
 								|{" "}
 								<a
-									href="https://polygonscan.com/address/0xD5a63CCE627372481b30AE24c31a3Fb94913D5Be"
+									href="https://mumbai.polygonscan.com/address/0xD5a63CCE627372481b30AE24c31a3Fb94913D5Be"
 									target="_blank"
 									rel="noreferrer"
 									className="hover:border-b-2 hover:border-slate-300"

@@ -207,7 +207,7 @@ export default function Home() {
 			<>
 				<div className="flex flex-row sm:mt-0 mt-4 drop-shadow-md">
 					<div className="flex mr-2  justify-end rounded-md bg-slate-700 px-2.5 py-0.5 text-lg font-medium text-slate-50">
-						Show Advanced Options
+						Set Custom Nonce
 					</div>
 
 					<label
