@@ -25,6 +25,41 @@ export default function Home() {
 	const [computedWallet, setComputedWallet] = useState("");
 	const [computedNonce, setComputedNonce] = useState("");
 
+	const ethChains = {
+		ETH_MAINNET: {
+			network: "homestead",
+			apiKey: process.env.ETH_MAINNET,
+		},
+		ETH_GOERLI: {
+			network: "goerli",
+			apiKey: process.env.ETH_GOERLI,
+		},
+		MATIC_MAINNET: {
+			network: "matic",
+			apiKey: process.env.MATIC_MAINNET,
+		},
+		MATIC_MUMBAI: {
+			network: "maticmum",
+			apiKey: process.env.MATIC_MUMBAI,
+		},
+		ARB_MAINNET: {
+			network: "arbitrum",
+			apiKey: process.env.ARB_MAINNET,
+		},
+		ARB_GOERLI: {
+			network: "arbitrum-goerli",
+			apiKey: process.env.ARB_GOERLI,
+		},
+		OPT_MAINNET: {
+			network: "optimism",
+			apiKey: process.env.OPT_MAINNET,
+		},
+		OPT_GOERLI: {
+			network: "optimism-goerli",
+			apiKey: process.env.OPT_GOERLI,
+		},
+	};
+
 	const chainNames = {
 		ETH_MAINNET: "Ethereum Mainnet",
 		ETH_GOERLI: "Goerli Ethereum Testnet",
@@ -125,9 +160,11 @@ export default function Home() {
 	};
 
 	const getNonce = async () => {
-		let settings = getSettings();
-		let alchemy = new Alchemy(settings);
-		let _nonce = await alchemy.core.getTransactionCount(address);
+		const provider = new ethers.providers.AlchemyProvider(
+			ethChains[chain].network,
+			process.env.NEXT_PUBLIC_ALCHEMY_API_KEY
+		);
+		const _nonce = await provider.getTransactionCount(address, "latest");
 
 		return _nonce;
 	};
