@@ -100,12 +100,14 @@ export default function Home() {
 
 	const incrementAddressesFound = async () => {
 		try {
-			console.log("hello");
-			const docRef = doc(db, "soladd", "addresses_found");
+			// console.log("hello");
+			const res = await fetch("/api/increment");
 
-			await setDoc(docRef, {
-				curr: (await getDoc(docRef)).data().curr + 1,
-			});
+			// const docRef = doc(db, "soladd", "addresses_found");
+
+			// await setDoc(docRef, {
+			// 	curr: (await getDoc(docRef)).data().curr + 1,
+			// });
 		} catch (err) {
 			console.log(err);
 		}
