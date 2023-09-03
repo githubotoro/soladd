@@ -13,6 +13,9 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import { db } from "@/firebase/config";
+import { doc, getDoc, setDoc, increment, FieldValue } from "firebase/firestore";
+
 export default function Home() {
 	const [showAdvancedOptions, setShowAdvancedOptions] = useState(false);
 
@@ -94,6 +97,19 @@ export default function Home() {
 	};
 
 	const [chain, setChain] = useState(chains[0]);
+
+	const incrementAddressesFound = async () => {
+		try {
+			console.log("hello");
+			const docRef = doc(db, "soladd", "addresses_found");
+
+			await setDoc(docRef, {
+				curr: (await getDoc(docRef)).data().curr + 1,
+			});
+		} catch (err) {
+			console.log(err);
+		}
+	};
 
 	const getSettings = () => {
 		let _settings = {};
@@ -211,6 +227,8 @@ export default function Home() {
 		setComputedChain(chain);
 		setComputedNonce(_nonce);
 		setComputedWallet(address);
+
+		incrementAddressesFound();
 	};
 
 	const inputAddress = () => {
